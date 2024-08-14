@@ -4,6 +4,8 @@ import './App.css';
 // import Logo from './components/Logo';
 // import SignIn from './components/SignIn';
 import AskQuestionWithMath from './components/AskQuestionWithMath';
+import BlogWritingPage from './components/BlogWritingPage';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       {/* <SignIn/> */}
       {/* <Register/> */}
       <AskQuestionWithMath/>
+      <BlogWritingPage/>
+      <Footer/>
     </div>
   );
 }
