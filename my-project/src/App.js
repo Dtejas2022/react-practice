@@ -1,9 +1,11 @@
 import './App.css';
 import MarkdownEditor from './components/MarkdownEditor';
+import Logo from './components/Logo';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <Logo/>
       <MarkdownEditor />
     </div>
   );
