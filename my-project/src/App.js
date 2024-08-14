@@ -1,12 +1,17 @@
 import './App.css';
-import MarkdownEditor from './components/MarkdownEditor';
-import Logo from './components/Logo';
+import Register from './components/Register';
+// import MarkdownEditor from './components/MarkdownEditor';
+// import Logo from './components/Logo';
+// import SignIn from './components/SignIn';
+
 
 function App() {
   return (
     <div>
-      <Logo/>
-      <MarkdownEditor />
+      {/* <Logo/>
+      <MarkdownEditor /> */}
+      {/* <SignIn/> */}
+      <Register/>
     </div>
   );
 }
