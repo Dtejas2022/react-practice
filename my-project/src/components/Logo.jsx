@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { CiLogin } from "react-icons/ci";
 
 export default function Logo() {
   return (
@@ -8,7 +9,7 @@ export default function Logo() {
       </div>
 
       <div class="flex items-center">
-        <a href="#login" class="bg-blue-500 text-black rounded-l-full px-4 py-2 hover:bg-violet-600 hover:text-white">Log In</a>
+        <a href="#login" class="bg-blue-500 text-black rounded-l-full px-4 py-2 hover:bg-violet-600 hover:text-white flex space-x-1 items-center font-bold"><CiLogin className='size-4'/>Log In</a>
 
         <a href="#signup" class="bg-green-500 text-white rounded-r-full px-4 py-2 hover:bg-green-600">Sign Up</a>
       </div>

@@ -3,7 +3,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div className="fixed inset-y-0 left-0 w-64 bg-gray-800 text-white flex flex-col">
+    <div className="fixed inset-y-0 left-0 w-[30%] bg-gray-800 text-white flex flex-col">
       <div className="p-6 bg-gray-900 flex justify-center">
         <img src="logo.jpg" alt="Logo" className="w-20 h-20 rounded-full" />
       </div>
